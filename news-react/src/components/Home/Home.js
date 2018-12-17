@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import Search from "./Search";
-import Results from "./Results";
-import Saved from "./Saved";
+import "./Home.css";
+import Search from "../Search/Search";
+import Results from "../Results/Results";
+import Saved from "../Saved/Saved";
 
 class Home extends Component {
 

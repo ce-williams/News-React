@@ -1,0 +1,15 @@
+.list-group {
+  margin: 2rem;
+  }
+  .list-group > #saved {
+      background: #fff;
+      border-radius: 2px;
+      height: 20rem;
+      margin: 10rem;
+      margin-top: 2rem;
+      position: relative;
+      width: 800px;
+      box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+      text-align: center;
+  
+}
