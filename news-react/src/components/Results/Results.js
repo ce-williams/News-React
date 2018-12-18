@@ -5,7 +5,7 @@ import "./Results.css";
 class Results extends Component {
     render () {
         return(
-            <div className="App">
+            <div className="container">
                <div class="card">
                     <div class="card-header">
                         Search Results
