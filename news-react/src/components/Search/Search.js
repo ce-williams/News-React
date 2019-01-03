@@ -35,7 +35,7 @@ class Search extends Component {
     render () {
         return(
             <div className="container">
-               <div class="card">
+               <div className="card">
                     <div class="card-header">
                         Search
                     </div>
@@ -49,7 +49,7 @@ class Search extends Component {
                                         autoFocus
                                         type="searchInput"
                                         value={this.state.searchInput}
-                                        // onChange={this.handleChange}
+                                        onChange={this.handleChange}
                                     />
                                 </FormGroup>
                                 <Button
@@ -67,7 +67,6 @@ class Search extends Component {
             </div>
         );
     }
-
 }
 
 export default Search;

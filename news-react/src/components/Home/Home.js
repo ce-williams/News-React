@@ -3,8 +3,12 @@ import "./Home.css";
 import Search from "../Search/Search";
 import Results from "../Results/Results";
 import Saved from "../Saved/Saved";
+// import articles from "./articles";
 
 class Home extends Component {
+    // state = {
+    //     articles
+    // };
 
     render () {
         return (
@@ -15,7 +19,6 @@ class Home extends Component {
                     <p class="lead">Use the components below to search and save articles</p>
                 </div>
                 </div>
-
                 <Search />
                 <Results />
                 <Saved />
